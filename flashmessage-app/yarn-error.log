@@ -1,0 +1,51 @@
+Arguments: 
+  /home/dantebenicio17/.nvm/versions/node/v14.17.2/bin/node /home/dantebenicio17/.nvm/versions/node/v14.17.2/bin/yarn add styled-components
+
+PATH: 
+  /home/dantebenicio17/.zinit/polaris/bin:/home/dantebenicio17/.nvm/versions/node/v14.17.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/DanteBenicio/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DanteBenicio/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DanteBenicio/AppData/Roaming/npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/mnt/c/Users/DanteBenicio/Documents/flash-message/flashmessage-app/node_modules/@types/node/buffer.d.ts'
+
+npm manifest: 
+  {
+    "name": "flashmessage-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "start": "next start",
+      "build": "next build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "formik": "^2.2.9",
+      "ioredis": "^4.27.7",
+      "next": "^11.0.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "swr": "^0.5.6",
+      "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.3.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
